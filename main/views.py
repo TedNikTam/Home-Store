@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 def index(request):
     context = {
-        'title': 'Home',
+        'title': 'H O M E',
         'content': 'Главная страница магазина - Home',
         'list': ['first', 'second'],
         'dict': {'first': 1},
